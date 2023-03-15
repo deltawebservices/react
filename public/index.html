@@ -15,6 +15,18 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/plugin.min.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">      
+    <link href="css/thumbnail-slider.css" rel="stylesheet">
+    <link rel='stylesheet' href='css/swiper.min.css'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <!-- template-style-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/darkmode.css" rel="stylesheet">
+    <link href="css/gdpr-cookie.css" rel="stylesheet"> 
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -39,5 +51,40 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+     <!-- js placed at the end of the document so the pages load faster -->
+     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.bundle.min.js"></script> 
+     <script src="js/plugin.min.js"></script>
+     <script src="js/preloader.js"></script>
+      <script src="js/thumbnail-slider.js"></script>
+      <script src='js/swiper.min.js'></script>
+
+     <!--common script file-->
+     <script src="js/main.js"></script>      
+     <script src="js/progress-bar.js"></script> 
+      <script src="js/gdprcookies.js"></script> 
+      <script src="js/coverflow-slideshow.js"></script>
+       <script type="text/javascript">
+         var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-36251023-1']);
+         _gaq.push(['_setDomainName', 'jqueryscript.net']);
+         _gaq.push(['_trackPageview']);
+
+         (function() {
+           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+
+       </script>
+      <script>
+        gdprCookieNotice({
+          statement: '',
+          performance: ['JSESSIONID'],
+          analytics: ['xxxx', 'ga'],
+          marketing: ['SSID']
+        });
+        </script>
   </body>
 </html>
